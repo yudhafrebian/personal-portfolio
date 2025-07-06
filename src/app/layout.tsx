@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/core/theme-provider";
 import Navbar from "@/components/core/Navbar";
 import BackToTopButton from "@/components/core/BackToTopButton";
+import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/core/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,7 +33,9 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Footer />
           <BackToTopButton />
+          <Toaster position="top-right" richColors />
         </ThemeProvider>
       </body>
     </html>

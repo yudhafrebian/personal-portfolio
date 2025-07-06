@@ -3,7 +3,7 @@ import { Blocks, Code, Figma, Gauge } from "lucide-react";
 
 const ServiceCard = () => {
   return (
-    <div className="grid grid-cols-4 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8">
       <Card>
         <CardHeader>
           <CardTitle className="flex justify-between items-center">Frontend Development <Code /></CardTitle>

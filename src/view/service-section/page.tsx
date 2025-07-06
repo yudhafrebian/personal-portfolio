@@ -2,7 +2,7 @@ import ServiceCard from "../../components/card/services-card"
 
 const MyServiceSection = () => {
     return (
-        <section className="px-36 py-20 dark:border-b" id="services">
+        <section className="px-6 py-16 md:px-36 md:py-20 dark:border-b" id="services">
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold text-[#1F2937] dark:text-white mb-5">
                     What I Can Do for You
