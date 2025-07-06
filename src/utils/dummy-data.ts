@@ -14,7 +14,7 @@ export const projects = [
     image: "/postify.png",
     title: "Article & Blog Platform",
     description:
-      "A modern blog platform that allows users to write, edit, and publish articles with clean UI and responsive design.",
+      "A modern article and blog platform that allows users to write, edit, and publish articles with clean UI and responsive design.",
     tech: ["Next.js", "Tailwind CSS"],
     link: "https://postify-article-blog.vercel.app",
     github: "https://github.com/yudhafrebian/postify-blog",
