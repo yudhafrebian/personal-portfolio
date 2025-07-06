@@ -24,12 +24,12 @@ const AboutSection = () => {
               that collaboration is key to successful projects.
             </p>
           </div>
-          <div className="flex gap-10">
+          <div className="flex gap-4 md:gap-10">
             <div>
               <p className="font-semibold text-[#1F2937] dark:text-white mb-3">
                 Frontend
               </p>
-              <ul className="text-muted-foreground md:text-base text-sm">
+              <ul className="text-muted-foreground md:text-base text-xs">
                 <li>HTML & CSS</li>
                 <li>JavaScript & TypeScript</li>
                 <li>React.js & Next.js</li>
@@ -40,7 +40,7 @@ const AboutSection = () => {
               <p className="font-semibold text-[#1F2937] dark:text-white mb-3">
                 Backend
               </p>
-              <ul className="text-muted-foreground md:text-base text-sm">
+              <ul className="text-muted-foreground md:text-base text-xs">
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>Prisma ORM</li>
@@ -51,7 +51,7 @@ const AboutSection = () => {
               <p className="font-semibold text-[#1F2937] dark:text-white mb-3">
                 Tools
               </p>
-              <ul className="text-muted-foreground md:text-base text-sm">
+              <ul className="text-muted-foreground md:text-base text-xs">
                 <li>Git & GitHub</li>
                 <li>Figma</li>
                 <li>VS Code</li>
