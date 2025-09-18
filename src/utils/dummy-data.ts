@@ -11,13 +11,13 @@ export const projects = [
   },
   {
     id: 2,
-    image: "/postify.png",
-    title: "Article & Blog Platform",
+    image: "/kopi.png",
+    title: "Kopi Kita",
     description:
-      "A modern article and blog platform that allows users to write, edit, and publish articles with clean UI and responsive design.",
-    tech: ["Next.js", "Tailwind CSS"],
-    link: "https://postify-article-blog.vercel.app",
-    github: "https://github.com/yudhafrebian/postify-blog",
+      "Kopi Kita is a modern cafe website with a responsive design, showcasing menu, location, and customer testimonials using Next.js and Tailwind CSS.",
+    tech: ["Next.js", "Node.js", "Prisma", "Tailwind CSS"],
+    link: "https://kopi-kita-client.vercel.app",
+    github: "https://github.com/yudhafrebian/kopi-kita-client",
   },
   {
     id: 3,
