@@ -48,7 +48,7 @@ const ProjectCard = () => {
                 </div>
                 <div className="flex gap-2 mt-4">
                   {item.tech.map((tech, index) => (
-                    <Badge key={index} variant="secondary">
+                    <Badge key={index}  variant="secondary">
                       {tech}
                     </Badge>
                   ))}
